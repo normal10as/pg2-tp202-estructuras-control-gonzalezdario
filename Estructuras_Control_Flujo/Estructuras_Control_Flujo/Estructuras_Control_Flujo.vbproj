@@ -68,12 +68,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Angulos.vb" />
-    <Compile Include="AplicacionDeDescuentoIF.vb" />
-    <Compile Include="AplicaciondeDescuentoCASE.vb" />
-    <Compile Include="DiasDelMes.vb" />
-    <Compile Include="Meses.vb" />
-    <Compile Include="Module1.vb" />
+    <Compile Include="2_07_Angulos.vb" />
+    <Compile Include="2_04_AplicacionDeDescuentoIF.vb" />
+    <Compile Include="2_06_AplicaciondeDescuentoCASE.vb" />
+    <Compile Include="2_08_DiasDelMes.vb" />
+    <Compile Include="2_05_Meses.vb" />
+    <Compile Include="2_01_Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -89,8 +89,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="NumeroMayor.vb" />
-    <Compile Include="NumeroMenor.vb" />
+    <Compile Include="2_03_NumeroMayor.vb" />
+    <Compile Include="2_02_NumeroMenor.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
