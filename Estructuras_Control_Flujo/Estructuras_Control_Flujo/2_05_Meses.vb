@@ -1,4 +1,5 @@
 ﻿Module Meses
+    Dim resultado As String
     Sub Main()
         Dim mes As Integer
 
@@ -7,33 +8,38 @@
 
         Select Case mes
             Case 1
-                Console.WriteLine("El numero corresponde al mes de Enero")
+                resultado = "Enero"
             Case 2
-                Console.WriteLine("El numero corresponde al mes de Febrero")
+                resultado = "Febrero"
             Case 3
-                Console.WriteLine("El numero corresponde al mes de Marzo")
+                resultado = "Marzo"
             Case 4
-                Console.WriteLine("El numero corresponde al mes de Abril")
+                resultado = "Abril"
             Case 5
-                Console.WriteLine("El numero corresponde al mes de Mayo")
+                resultado = "Mayo"
             Case 6
-                Console.WriteLine("El numero corresponde al mes de Junio")
+                resultado = "Junio"
             Case 7
-                Console.WriteLine("El numero corresponde al mes de Julio")
+                resultado = "Julio"
             Case 8
-                Console.WriteLine("El numero corresponde al mes de Agosto")
+                resultado = "Agosto"
             Case 9
-                Console.WriteLine("El numero corresponde al mes de Septiempre")
+                resultado = "Septiempre"
             Case 10
-                Console.WriteLine("El numero corresponde al mes de Octubre")
+                resultado = "Octubre"
             Case 11
-                Console.WriteLine("El numero corresponde al mes de Noviembre")
+                resultado = "Noviembre"
             Case 12
-                Console.WriteLine("El numero corresponde al mes de Diciembre")
+                resultado = "Diciembre"
             Case Else
-                Console.WriteLine("No ha ingresado un numero valido.")
-
+                resultado = "Error"
         End Select
+
+        If resultado <> "Error" Then
+            Console.WriteLine("El numero corresponde al mes de " + resultado + ".")
+        Else
+            Console.WriteLine("No ha ingresado un numero valido.")
+        End If
     End Sub
 
 End Module
