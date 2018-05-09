@@ -1,7 +1,7 @@
 ﻿Module AplicacionDeDescuentoIF
     Dim Cantidad As Integer
-    Dim PrecioUnitario As Double
-    Dim Descuento As Double
+    Dim PrecioUnitario As Single
+    Dim Descuento As Single
     Sub Main()
         Console.WriteLine("Calculo de Descuento")
         Console.Write("Ingrese la cantidad: ")
@@ -21,8 +21,8 @@
             Descuento = 0.2
         End If
 
-        Dim SubTotal As Double = Cantidad * PrecioUnitario
-        Dim MontoDescontado As Double = SubTotal * Descuento
+        Dim SubTotal As Single = Cantidad * PrecioUnitario
+        Dim MontoDescontado As Single = SubTotal * Descuento
         Console.WriteLine("SubTotal: $" & SubTotal)
         Console.WriteLine("Porcentaje de Descuento: " & Descuento * 100 & "%")
         Console.WriteLine("Monto Descontado: $" & MontoDescontado)

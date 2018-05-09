@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B1FFFEB3-D0E0-47B7-A3B1-5920FC1B44EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Estructuras_Control_Flujo.DiasDelMes</StartupObject>
+    <StartupObject>Estructuras_Control_Flujo.Interes</StartupObject>
     <RootNamespace>Estructuras_Control_Flujo</RootNamespace>
     <AssemblyName>Estructuras_Control_Flujo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -74,6 +74,11 @@
     <Compile Include="2_08_DiasDelMes.vb" />
     <Compile Include="2_05_Meses.vb" />
     <Compile Include="2_01_Module1.vb" />
+    <Compile Include="2_09_ConvercionesMedida.vb" />
+    <Compile Include="2_10_MultiplosDeCinco.vb" />
+    <Compile Include="2_12_Fibonacci.vb" />
+    <Compile Include="2_14_AplicacionDeDescuento.vb" />
+    <Compile Include="2_15_Interes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -91,6 +96,8 @@
     </Compile>
     <Compile Include="2_03_NumeroMayor.vb" />
     <Compile Include="2_02_NumeroMenor.vb" />
+    <Compile Include="2_11_ParesImpares.vb" />
+    <Compile Include="2_13_NumerosPrimos.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
