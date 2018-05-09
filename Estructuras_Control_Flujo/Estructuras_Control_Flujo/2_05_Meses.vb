@@ -41,5 +41,4 @@
             Console.WriteLine("No ha ingresado un numero valido.")
         End If
     End Sub
-
 End Module
