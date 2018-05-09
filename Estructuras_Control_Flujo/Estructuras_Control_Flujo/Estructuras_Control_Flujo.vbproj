@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B1FFFEB3-D0E0-47B7-A3B1-5920FC1B44EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Estructuras_Control_Flujo.Interes</StartupObject>
+    <StartupObject>Estructuras_Control_Flujo.Fibonacci</StartupObject>
     <RootNamespace>Estructuras_Control_Flujo</RootNamespace>
     <AssemblyName>Estructuras_Control_Flujo</AssemblyName>
     <FileAlignment>512</FileAlignment>
