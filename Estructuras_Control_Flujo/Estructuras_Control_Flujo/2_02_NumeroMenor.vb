@@ -16,9 +16,7 @@
 
         If b < menor Then
             menor = b
-        End If
-
-        If c < menor Then
+        ElseIf c < menor Then
             menor = c
         End If
 

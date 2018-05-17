@@ -11,13 +11,9 @@
 
         If Cantidad >= 10 And Cantidad <= 50 Then
             Descuento = 0.05
-        End If
-
-        If Cantidad > 50 And Cantidad <= 250 Then
+        ElseIf Cantidad > 50 And Cantidad <= 250 Then
             Descuento = 0.1
-        End If
-
-        If Cantidad > 250 Then
+        ElseIf Cantidad > 250 Then
             Descuento = 0.2
         End If
 

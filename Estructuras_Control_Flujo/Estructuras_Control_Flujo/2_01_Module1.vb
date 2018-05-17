@@ -9,13 +9,10 @@
 
         If a > b Then
             Console.WriteLine("El primer numero es mayor que el segundo.")
+        ElseIf a < b Then
+            Console.WriteLine("El segundo numero es mayor que el primero.")
         Else
-            If a < b Then
-                Console.WriteLine("El segundo numero es mayor que el primero.")
-            End If
-        End If
-        If a = b Then
-            Console.WriteLine("Los numeros son iguales.")
+        Console.WriteLine("Los numeros son iguales.")
         End If
 
     End Sub
